@@ -20,7 +20,7 @@ main {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     display: flex;
-    width: 600px;
+    max-width: 600px;
 }
 
 #perfume-image {
