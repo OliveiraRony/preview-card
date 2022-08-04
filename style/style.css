@@ -20,16 +20,19 @@ main {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     width: 600px;
-    height: 450px;
     border-radius: 10px;
     justify-content: center;
 }
 
 #perfume-image {
     width: 50%;
-    background-image: url('../images/image-product-desktop.jpg');
-    background-size: cover;
     border-radius: 10px 0px 0px 10px;
+}
+
+#perfume-image img {
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+    width: 100%;
 }
 
 #content {
@@ -105,3 +108,6 @@ button a {
     margin-left: 10px;
 }
 
+button:hover {
+    background-color: rgb(29, 60, 49);
+}
