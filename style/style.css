@@ -128,6 +128,10 @@ button:active {
         height: 100%;
     }
 
+    .pre-title {
+        margin: 0;
+     }
+
     .perfume-info {
         padding: 30px;
         width: 50%;
@@ -139,10 +143,6 @@ button:active {
 
     .new-price {
         margin-right: 30px;
-    }
-
-    .pre-title {
-       margin: 0;
     }
 
     h1 {
